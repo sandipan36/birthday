@@ -38,7 +38,7 @@ function App() {
         <div className="App">
             {showConfetti && <Confetti numberOfPieces={500} recycle={true} />}
 
-            {showRockets && (
+            {/* {showRockets && (
                 <div className="rocket-container">
                     {rocketPositions.map((rocket, index) => (
                         <Rocket
@@ -48,7 +48,7 @@ function App() {
                         />
                     ))}
                 </div>
-            )}
+            )} */}
 
             <GreetingCard />
         </div>
